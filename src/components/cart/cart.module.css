@@ -1,0 +1,34 @@
+.emptyCart{
+    display:flex; 
+    justify-content:center;
+    align-items:center; 
+    height:100%; 
+    width:100%; 
+    font-weight:bold;
+}
+
+.cartContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .cartActions {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .buttonWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+  }
+
+  .price{
+    font-weight: bold;
+    font-size: larger;
+  }

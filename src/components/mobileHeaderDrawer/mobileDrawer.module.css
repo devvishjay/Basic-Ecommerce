@@ -1,0 +1,24 @@
+.drawerContent {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .drawerItem {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--font-primary-color);
+    font-size: 1rem;
+    margin-bottom: 20%;
+    padding-right: 100px;
+  }
+  
+  .drawerItem:hover {
+    color: var(--items-hover-color);
+  }
+  
+  .drawerItem .MuiSvgIcon-root {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,65 @@
+
+.headwrap{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.headItemswrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1440px;
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoItemsHolder{
+    display: flex;;
+    flex-direction: row;
+}
+
+
+.logoItemsHolder img{
+    width: 111px;
+    height: 40px;
+}
+
+.listItemsWrap{
+    display: flex;
+    flex-direction: row;
+    padding: 0 26px;
+    width: 400px;
+    max-width: 4000px;
+    border-color: aliceblue;
+    justify-content: space-between;
+    
+}
+
+.listItems{
+    color: var(--font-primary-color);
+    font-size: 1rem;
+    font-family:"Open Sans", sans-serif;
+
+}
+
+.listItemsActive{
+    color: var(--font-primary-color);
+    font-size: 1rem;
+    font-family:"Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.iconwrapper{
+    display: flex; 
+    gap:2rem;
+}
+
+.icons{
+    height: 100px;
+}
+
+.listItems:hover{
+    font-weight: bold;
+}
